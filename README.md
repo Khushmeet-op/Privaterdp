@@ -9,9 +9,10 @@ Create a free VPS with 2cpu-7gb Ram FREE configuration with Github:
 
 In Github go to Settings> Secrets> New repository secret
 * Name: enter NGROK_AUTH_TOKEN
-*Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken and then 
+* Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken and then 
 press add secret
-Go to Action> CI2> Run workflow
-Reload the page and press CI2> build
-Press the down arrow on Connect To Your RPD to get IP, User, Password.
+- Go to Action> CI2> Run workflow
+- Reload the page and press CI2> build
+- Press the down arrow on Connect To Your RPD to get IP, User, Password.
+
 #### Cre: https://github.com/ThuongHai
