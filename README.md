@@ -2,18 +2,16 @@
 
 Windows Server 2019 Github with RDP Access (ngrok AP)
 
-Tạo VPS miễn phí cấu hình 2cpu-7gb Ram FREE với Github:
+Create a free VPS with 2cpu-7gb Ram FREE configuration with Github:
 
-- Click Fork góc phải màn hình để lưu vào Github của bạn.
-- Truy cập https://dashboard.ngrok.com để lấy NGROK_AUTH_TOKEN
-- Ở Github vào Settings > Secrets > New repository secret
+- Click Fork in the right corner of the screen to save it to your Github.
+- Visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
 
-* Phần Name: điền NGROK_AUTH_TOKEN
-* Phần Value: truy cập https://dashboard.ngrok.com/auth/your-authtoken Copy và Paste Your Authtoken vào
-
-- Ấn Add secret
-- Chuyển qua Action > CI > Run workflow
-- Reload lại trang và ấn CI > build
-- Ấn mũi tên xuống ở Connect To Your RPD để lấy IP, User, Password.
-
+In Github go to Settings> Secrets> New repository secret
+* Name: enter NGROK_AUTH_TOKEN
+*Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken and then 
+press add secret
+Go to Action> CI2> Run workflow
+Reload the page and press CI2> build
+Press the down arrow on Connect To Your RPD to get IP, User, Password.
 #### Cre: https://github.com/ThuongHai
