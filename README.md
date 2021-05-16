@@ -14,5 +14,6 @@ press add secret
 - Go to Action> CI2> Run workflow
 - Reload the page and press CI2> build
 - Press the down arrow on Connect To Your RPD to get IP, User, Password.
-
+- 
+## MUST GIVE STAR IF YOU LIKE IT 
 #### Cre: https://github.com/ThuongHai
